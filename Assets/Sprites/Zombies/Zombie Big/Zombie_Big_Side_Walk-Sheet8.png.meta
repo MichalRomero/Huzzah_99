@@ -1,25 +1,28 @@
 fileFormatVersion: 2
-guid: 8188d87799dd976448ea8e8b8ed6ffaf
+guid: 61842f37714ed1b409c179f1d9937835
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8159891127022863514
-    second: Wizard_Idle_0
+      213: -5188933011754534173
+    second: Zombie_Big_Side_Walk-Sheet8_0
   - first:
-      213: 3737527051674055740
-    second: Wizard_Idle_1
+      213: 6895453916438896024
+    second: Zombie_Big_Side_Walk-Sheet8_1
   - first:
-      213: 2799114178725471670
-    second: Wizard_Idle_2
+      213: 1448673045310231601
+    second: Zombie_Big_Side_Walk-Sheet8_2
   - first:
-      213: 1959314328206465108
-    second: Wizard_Idle_3
+      213: 8902007970720238146
+    second: Zombie_Big_Side_Walk-Sheet8_3
   - first:
-      213: 3503323587937512601
-    second: Wizard_Idle_4
+      213: -7527943756556027004
+    second: Zombie_Big_Side_Walk-Sheet8_4
   - first:
-      213: -2295670016063156284
-    second: Wizard_Idle_5
+      213: -649743744184286564
+    second: Zombie_Big_Side_Walk-Sheet8_5
+  - first:
+      213: -8180243675433536037
+    second: Zombie_Big_Side_Walk-Sheet8_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -89,7 +92,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -128,133 +131,155 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wizard_Idle_0
+      name: Zombie_Big_Side_Walk-Sheet8_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 100
-        height: 100
+        width: 33
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a944f004fb1cd3170800000000000000
-      internalID: 8159891127022863514
+      spriteID: 3eab21ffae43df7b0800000000000000
+      internalID: -5188933011754534173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wizard_Idle_1
+      name: Zombie_Big_Side_Walk-Sheet8_1
       rect:
         serializedVersion: 2
-        x: 100
+        x: 32
         y: 0
-        width: 100
-        height: 100
+        width: 16
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c34f17d1d0d5ed330800000000000000
-      internalID: 3737527051674055740
+      spriteID: 89d9a66adc291bf50800000000000000
+      internalID: 6895453916438896024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wizard_Idle_2
+      name: Zombie_Big_Side_Walk-Sheet8_2
       rect:
         serializedVersion: 2
-        x: 200
+        x: 49
         y: 0
-        width: 100
-        height: 100
+        width: 15
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b5e0b4e38378d620800000000000000
-      internalID: 2799114178725471670
+      spriteID: 13456659578ba1410800000000000000
+      internalID: 1448673045310231601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wizard_Idle_3
+      name: Zombie_Big_Side_Walk-Sheet8_3
       rect:
         serializedVersion: 2
-        x: 300
+        x: 65
         y: 0
-        width: 100
-        height: 100
+        width: 15
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45854182002e03b10800000000000000
-      internalID: 1959314328206465108
+      spriteID: 24ac972a5194a8b70800000000000000
+      internalID: 8902007970720238146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wizard_Idle_4
+      name: Zombie_Big_Side_Walk-Sheet8_4
       rect:
         serializedVersion: 2
-        x: 400
+        x: 81
         y: 0
-        width: 100
-        height: 100
+        width: 15
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 99c2348ed3e4e9030800000000000000
-      internalID: 3503323587937512601
+      spriteID: 48bbb55c90f578790800000000000000
+      internalID: -7527943756556027004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wizard_Idle_5
+      name: Zombie_Big_Side_Walk-Sheet8_5
       rect:
         serializedVersion: 2
-        x: 500
+        x: 97
         y: 0
-        width: 100
-        height: 100
+        width: 15
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4cf4a0b88442420e0800000000000000
-      internalID: -2295670016063156284
+      spriteID: c920dd4d185abf6f0800000000000000
+      internalID: -649743744184286564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Big_Side_Walk-Sheet8_6
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5f5adc7bfe97e80800000000000000
+      internalID: -8180243675433536037
       vertices: []
       indices: 
       edges: []
@@ -263,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -271,16 +296,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":100.0,"y":100.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Wizard_Idle_0: 8159891127022863514
-      Wizard_Idle_1: 3737527051674055740
-      Wizard_Idle_2: 2799114178725471670
-      Wizard_Idle_3: 1959314328206465108
-      Wizard_Idle_4: 3503323587937512601
-      Wizard_Idle_5: -2295670016063156284
+      Zombie_Big_Side_Walk-Sheet8_0: -5188933011754534173
+      Zombie_Big_Side_Walk-Sheet8_1: 6895453916438896024
+      Zombie_Big_Side_Walk-Sheet8_2: 1448673045310231601
+      Zombie_Big_Side_Walk-Sheet8_3: 8902007970720238146
+      Zombie_Big_Side_Walk-Sheet8_4: -7527943756556027004
+      Zombie_Big_Side_Walk-Sheet8_5: -649743744184286564
+      Zombie_Big_Side_Walk-Sheet8_6: -8180243675433536037
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

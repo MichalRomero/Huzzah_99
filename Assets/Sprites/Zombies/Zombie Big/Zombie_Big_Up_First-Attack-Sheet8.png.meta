@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: 8188d87799dd976448ea8e8b8ed6ffaf
+guid: 17c541e6796d58148b69a5856b1623a7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8159891127022863514
-    second: Wizard_Idle_0
+      213: -2060462013864887889
+    second: Zombie_Big_Up_First-Attack-Sheet8_0
   - first:
-      213: 3737527051674055740
-    second: Wizard_Idle_1
+      213: -3366654465107078695
+    second: Zombie_Big_Up_First-Attack-Sheet8_1
   - first:
-      213: 2799114178725471670
-    second: Wizard_Idle_2
+      213: 6224090024523847882
+    second: Zombie_Big_Up_First-Attack-Sheet8_2
   - first:
-      213: 1959314328206465108
-    second: Wizard_Idle_3
+      213: 6573800041959822812
+    second: Zombie_Big_Up_First-Attack-Sheet8_3
   - first:
-      213: 3503323587937512601
-    second: Wizard_Idle_4
+      213: -2711035273966693169
+    second: Zombie_Big_Up_First-Attack-Sheet8_4
   - first:
-      213: -2295670016063156284
-    second: Wizard_Idle_5
+      213: 820310280065683106
+    second: Zombie_Big_Up_First-Attack-Sheet8_5
+  - first:
+      213: 8318652501074449299
+    second: Zombie_Big_Up_First-Attack-Sheet8_6
+  - first:
+      213: -8803873429832493341
+    second: Zombie_Big_Up_First-Attack-Sheet8_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -89,7 +95,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -128,133 +134,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wizard_Idle_0
+      name: Zombie_Big_Up_First-Attack-Sheet8_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 100
-        height: 100
+        width: 16
+        height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a944f004fb1cd3170800000000000000
-      internalID: 8159891127022863514
+      spriteID: fa9b56617b4c763e0800000000000000
+      internalID: -2060462013864887889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wizard_Idle_1
+      name: Zombie_Big_Up_First-Attack-Sheet8_1
       rect:
         serializedVersion: 2
-        x: 100
+        x: 17
         y: 0
-        width: 100
-        height: 100
+        width: 19
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c34f17d1d0d5ed330800000000000000
-      internalID: 3737527051674055740
+      spriteID: 9d15fcde99d3741d0800000000000000
+      internalID: -3366654465107078695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wizard_Idle_2
+      name: Zombie_Big_Up_First-Attack-Sheet8_2
       rect:
         serializedVersion: 2
-        x: 200
+        x: 35
         y: 0
-        width: 100
-        height: 100
+        width: 20
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b5e0b4e38378d620800000000000000
-      internalID: 2799114178725471670
+      spriteID: ac8dbc196e8606650800000000000000
+      internalID: 6224090024523847882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wizard_Idle_3
+      name: Zombie_Big_Up_First-Attack-Sheet8_3
       rect:
         serializedVersion: 2
-        x: 300
+        x: 54
         y: 0
-        width: 100
-        height: 100
+        width: 16
+        height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45854182002e03b10800000000000000
-      internalID: 1959314328206465108
+      spriteID: cd596750f44da3b50800000000000000
+      internalID: 6573800041959822812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wizard_Idle_4
+      name: Zombie_Big_Up_First-Attack-Sheet8_4
       rect:
         serializedVersion: 2
-        x: 400
+        x: 72
         y: 0
-        width: 100
-        height: 100
+        width: 15
+        height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 99c2348ed3e4e9030800000000000000
-      internalID: 3503323587937512601
+      spriteID: fc459a138c7706ad0800000000000000
+      internalID: -2711035273966693169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wizard_Idle_5
+      name: Zombie_Big_Up_First-Attack-Sheet8_5
       rect:
         serializedVersion: 2
-        x: 500
+        x: 89
         y: 0
-        width: 100
-        height: 100
+        width: 19
+        height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4cf4a0b88442420e0800000000000000
-      internalID: -2295670016063156284
+      spriteID: 2ae8ae08ad3526b00800000000000000
+      internalID: 820310280065683106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Big_Up_First-Attack-Sheet8_6
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3931578206ac17370800000000000000
+      internalID: 8318652501074449299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Big_Up_First-Attack-Sheet8_7
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6955fa2cb52d580800000000000000
+      internalID: -8803873429832493341
       vertices: []
       indices: 
       edges: []
@@ -263,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -271,16 +321,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":100.0,"y":100.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Wizard_Idle_0: 8159891127022863514
-      Wizard_Idle_1: 3737527051674055740
-      Wizard_Idle_2: 2799114178725471670
-      Wizard_Idle_3: 1959314328206465108
-      Wizard_Idle_4: 3503323587937512601
-      Wizard_Idle_5: -2295670016063156284
+      Zombie_Big_Up_First-Attack-Sheet8_0: -2060462013864887889
+      Zombie_Big_Up_First-Attack-Sheet8_1: -3366654465107078695
+      Zombie_Big_Up_First-Attack-Sheet8_2: 6224090024523847882
+      Zombie_Big_Up_First-Attack-Sheet8_3: 6573800041959822812
+      Zombie_Big_Up_First-Attack-Sheet8_4: -2711035273966693169
+      Zombie_Big_Up_First-Attack-Sheet8_5: 820310280065683106
+      Zombie_Big_Up_First-Attack-Sheet8_6: 8318652501074449299
+      Zombie_Big_Up_First-Attack-Sheet8_7: -8803873429832493341
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

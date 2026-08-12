@@ -1,25 +1,28 @@
 fileFormatVersion: 2
-guid: 8188d87799dd976448ea8e8b8ed6ffaf
+guid: dff6eee68a50fe940bd6e331a2f0be41
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8159891127022863514
-    second: Wizard_Idle_0
+      213: 3177806693994598161
+    second: Zombie_Big_Down_Walk-Sheet8_0
   - first:
-      213: 3737527051674055740
-    second: Wizard_Idle_1
+      213: 7256762049776372414
+    second: Zombie_Big_Down_Walk-Sheet8_1
   - first:
-      213: 2799114178725471670
-    second: Wizard_Idle_2
+      213: 2133341205766740387
+    second: Zombie_Big_Down_Walk-Sheet8_2
   - first:
-      213: 1959314328206465108
-    second: Wizard_Idle_3
+      213: 3310929676289516210
+    second: Zombie_Big_Down_Walk-Sheet8_3
   - first:
-      213: 3503323587937512601
-    second: Wizard_Idle_4
+      213: 1714680565092366889
+    second: Zombie_Big_Down_Walk-Sheet8_4
   - first:
-      213: -2295670016063156284
-    second: Wizard_Idle_5
+      213: 6193733809724056770
+    second: Zombie_Big_Down_Walk-Sheet8_5
+  - first:
+      213: -6798389041443869876
+    second: Zombie_Big_Down_Walk-Sheet8_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 15
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -89,7 +92,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -128,133 +131,155 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wizard_Idle_0
+      name: Zombie_Big_Down_Walk-Sheet8_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 100
-        height: 100
+        width: 32
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a944f004fb1cd3170800000000000000
-      internalID: 8159891127022863514
+      spriteID: 11f0868f956d91c20800000000000000
+      internalID: 3177806693994598161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wizard_Idle_1
+      name: Zombie_Big_Down_Walk-Sheet8_1
       rect:
         serializedVersion: 2
-        x: 100
+        x: 31
         y: 0
-        width: 100
-        height: 100
+        width: 17
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c34f17d1d0d5ed330800000000000000
-      internalID: 3737527051674055740
+      spriteID: ebac474e2a235b460800000000000000
+      internalID: 7256762049776372414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wizard_Idle_2
+      name: Zombie_Big_Down_Walk-Sheet8_2
       rect:
         serializedVersion: 2
-        x: 200
+        x: 47
         y: 0
-        width: 100
-        height: 100
+        width: 17
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b5e0b4e38378d620800000000000000
-      internalID: 2799114178725471670
+      spriteID: 3a91e6216862b9d10800000000000000
+      internalID: 2133341205766740387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wizard_Idle_3
+      name: Zombie_Big_Down_Walk-Sheet8_3
       rect:
         serializedVersion: 2
-        x: 300
+        x: 63
         y: 0
-        width: 100
-        height: 100
+        width: 17
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45854182002e03b10800000000000000
-      internalID: 1959314328206465108
+      spriteID: 2b2298f9ff8c2fd20800000000000000
+      internalID: 3310929676289516210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wizard_Idle_4
+      name: Zombie_Big_Down_Walk-Sheet8_4
       rect:
         serializedVersion: 2
-        x: 400
+        x: 79
         y: 0
-        width: 100
-        height: 100
+        width: 17
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 99c2348ed3e4e9030800000000000000
-      internalID: 3503323587937512601
+      spriteID: 92ab891a3e4cbc710800000000000000
+      internalID: 1714680565092366889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wizard_Idle_5
+      name: Zombie_Big_Down_Walk-Sheet8_5
       rect:
         serializedVersion: 2
-        x: 500
+        x: 95
         y: 0
-        width: 100
-        height: 100
+        width: 17
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4cf4a0b88442420e0800000000000000
-      internalID: -2295670016063156284
+      spriteID: 2c4ede9851094f550800000000000000
+      internalID: 6193733809724056770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zombie_Big_Down_Walk-Sheet8_6
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 0
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b64dbaf2547a1a0800000000000000
+      internalID: -6798389041443869876
       vertices: []
       indices: 
       edges: []
@@ -263,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -271,16 +296,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":100.0,"y":100.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Wizard_Idle_0: 8159891127022863514
-      Wizard_Idle_1: 3737527051674055740
-      Wizard_Idle_2: 2799114178725471670
-      Wizard_Idle_3: 1959314328206465108
-      Wizard_Idle_4: 3503323587937512601
-      Wizard_Idle_5: -2295670016063156284
+      Zombie_Big_Down_Walk-Sheet8_0: 3177806693994598161
+      Zombie_Big_Down_Walk-Sheet8_1: 7256762049776372414
+      Zombie_Big_Down_Walk-Sheet8_2: 2133341205766740387
+      Zombie_Big_Down_Walk-Sheet8_3: 3310929676289516210
+      Zombie_Big_Down_Walk-Sheet8_4: 1714680565092366889
+      Zombie_Big_Down_Walk-Sheet8_5: 6193733809724056770
+      Zombie_Big_Down_Walk-Sheet8_6: -6798389041443869876
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
