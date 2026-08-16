@@ -13,7 +13,11 @@ public class Enemy_Combat : MonoBehaviour
     //collision keeps track of te last collider the enemy hit
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        //find colliders gameobject, get the playerhealth component, then call our change health method to do -damage
-        collision.gameObject.GetComponent<PlayerHealth>().ChangeHealth(-damage);
+        if (collision.gameObject.tag == "Player")
+        {
+            //find colliders gameobject, get the playerhealth component, then call our change health method to do -damage
+            collision.gameObject.GetComponent<PlayerHealth>().ChangeHealth(-damage);
+        }
+        
     }
 }
